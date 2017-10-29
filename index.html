@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Loto</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+   
+
+  </head>
+  <body>
+   
+<div class="container">
+   <h1>Loto žaidimas</h1>
+
+   <div  id="nrblocks" class="row" style=""></div>
+
+
+   <div class="row block_row">
+     <div id="random_number" class="col-3 random_number_blocks">X</div>
+     <div id="" class="col-4 gameover_blocks">
+      <div class="row row_number" id="t_number">Ticket number</div>
+      <div class="row row_number" id="r_number">Random number</div>
+      
+    </div>
+     <div id="" class="col-4 gameover_blocks">
+      <div class="row row_number" id="result">Result</div>
+      
+      
+    </div>
+   </div>
+
+   <div class="row ">
+      <div class=" column col-3 block_name">
+    <input class="form-control" type="text" name="" id="name" placeholder="write your name">
+  </div>
+
+
+   </div>
+
+<div class="row row_button">
+  <div class=" column col-3 ">
+    <button id="btn_start" class="btn btn-lg btn-success" onclick="start()">Start a new game!</button><br>
+  </div>
+  <div class="column col-3" id="btn_random">
+    <button  class="btn btn-lg btn-info" onclick="get_number()">Random number</button>
+  </div>
+    
+</div>
+<div class="row row_button">
+  <div class=" column col-3 ">
+    <a href="lotochart.html">Show loto chart!</a>
+    
+  </div>
+  
+    
+</div>
+
+</div>
+
+
+
+
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="loto.js"></script>
+
+
+  </body>
+</html>

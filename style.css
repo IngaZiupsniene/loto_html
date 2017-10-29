@@ -1,0 +1,54 @@
+.number{
+	padding: 10px;
+	border: 1px solid black;
+	background-color: brown;
+	margin: 1px;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	height: 100px;
+}
+
+.random_number_blocks{
+background-color: orange;
+text-align: center;
+	padding: 20px;
+	font-size: 50px;
+margin: 1px;
+border: 1px solid black;
+
+}
+
+.gameover_blocks{
+
+background-color: red;
+
+border: 1px solid black;
+margin: 1px;
+}
+
+.row_button{
+	margin-top: 20px;
+}
+
+.column{
+	padding: 10px;
+}
+.row_number{
+	text-align: center;
+	padding: 10px;
+	font-size: 30px;
+}
+#btn_random{
+	/*display: none;*/
+}
+.block_row{
+	height: 150px;
+}
+.block_name{
+	padding: 10px;
+	background-color: yellow;
+}
+.column_left_margin{
+	margin-left: 10px;
+}
